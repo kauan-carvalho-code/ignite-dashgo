@@ -16,7 +16,7 @@ export function Input({ name, label, ...rest }: InputProps) {
 
       <ChakraInput
         name={name}
-        type="password"
+        type="text"
         id={name}
         focusBorderColor="pink.500"
         bgColor="gray.900"
